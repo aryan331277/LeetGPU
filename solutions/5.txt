@@ -1,0 +1,7 @@
+import torch
+
+# input, kernel, output are tensors on the GPU
+def solve(input: torch.Tensor, kernel: torch.Tensor, output: torch.Tensor, input_size: int, kernel_size: int):
+    output_size=input_size - kernel_size + 1
+    for i in range(output_size):
+        output[i]=torch.sum(input[i:i+kernel_size]*kernel) 
