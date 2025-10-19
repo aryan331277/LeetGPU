@@ -1,0 +1,12 @@
+Matrix Transpose
+Easy
+Write a program that transposes a matrix of 32-bit floating point numbers on a GPU. The transpose of a matrix switches its rows and columns. Given a matrix 
+ of dimensions 
+, the transpose 
+ will have dimensions 
+. All matrices are stored in row-major format.
+
+Implementation Requirements
+Use only native features (external libraries are not permitted)
+The solve function signature must remain unchanged
+The final result must be stored in the matrix output
