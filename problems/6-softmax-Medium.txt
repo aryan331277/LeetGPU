@@ -1,1 +1,11 @@
+Softmax
+Medium
+Write a program that computes the softmax function for an array of 32-bit floating-point numbers on a GPU. The softmax function is defined as follows:
 
+
+Your solution should handle potential overflow issues by using the "max trick". Subtract the maximum value of the input array from each element before exponentiation.
+
+Implementation Requirements
+Use only native features (external libraries are not permitted)
+The solve function signature must remain unchanged
+The final result must be stored in the array output
